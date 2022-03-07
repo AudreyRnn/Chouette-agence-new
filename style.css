@@ -17,6 +17,9 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+a:focus{
+    border-bottom: 2px solid #000000;
+}
 
 #page-loading-blocs-notifaction {
     position: fixed;
