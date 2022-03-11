@@ -623,7 +623,7 @@ a[data-lightbox]:hover img {
   position: absolute;
   top: 45%;
   z-index: 1;
-  opacity: 0.4;
+  opacity: 1;
 }
 
 .next-lightbox {
