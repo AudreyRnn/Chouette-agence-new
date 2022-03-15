@@ -1436,7 +1436,7 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto
 }
 
@@ -1843,6 +1843,15 @@ dd {
     .dl-horizontal dd {
         margin-left: 180px
     }
+    .carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+    display: block;
+    width: 75%;
+    height: auto;
+}
 }
 
 abbr[data-original-title],

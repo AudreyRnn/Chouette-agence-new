@@ -592,6 +592,7 @@ a[data-lightbox]:hover img {
   left: 15px;
   right: 15px;
   bottom: 5px;
+  text-align: center;
 }
 
 .close-lightbox {
@@ -618,8 +619,8 @@ a[data-lightbox]:hover img {
 .next-lightbox,
 .prev-lightbox {
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.9);
-  
+  color:#f3976c !important;
+ 
   transition: all 0.2s ease-in-out;
   position: absolute;
   top: 45%;
@@ -631,6 +632,7 @@ a[data-lightbox]:hover img {
   padding: 6px 8px 1px 13px;
   right: 25px;
 }
+
 
 .prev-lightbox {
   padding: 6px 13px 1px 10px;
@@ -708,9 +710,9 @@ p {
 }
 
 .social {
-  max-width: 400px;
-  margin: auto auto auto auto;
-}
+  display: flex;
+  justify-content: center;
+  }
 
 h2 {
   font-size: 28px;
@@ -1031,6 +1033,9 @@ h4 {
   .blocsapp-device-iphone5 img {
     width: 180px;
     height: 320px;
+  }
+  .social{
+    gap:45px;
   }
 }
 
